@@ -11,14 +11,14 @@ type InitFunc func(root string, options []string) (Driver, error)
 
 // Driver represent the interface a driver must fulfill.
 type Driver interface {
-    Create(id, parent string) error
-    Remove(id string) error
-    Get(id, mountLabel string) (string, error)
-    Put(id string) error
-    Exists(id string) bool
-    Status() [][2]string
-    GetMetadata(id string) (map[string]string, error)
-    Cleanup() error
+	Create(id, parent string) error
+	Remove(id string) error
+	Get(id, mountLabel string) (string, error)
+	Put(id string) error
+	Exists(id string) bool
+	Status() [][2]string
+	GetMetadata(id string) (map[string]string, error)
+	Cleanup() error
 }
 
 var (

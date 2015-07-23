@@ -15,7 +15,7 @@ On the other hand, companies like EMC, NetApp and others will most likely not be
 
 # Support graph drivers
 
-- [Ceph rbd driver](https://github.com/hustcat/docker-graph-driver/driver/rbd/README.md)
+- [Ceph rbd driver](https://github.com/hustcat/docker-graph-driver/blob/master/driver/rbd/README.md)
 
 # How to use
 

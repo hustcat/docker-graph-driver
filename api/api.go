@@ -3,12 +3,12 @@ package api
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/hustcat/docker-graph-driver/driver"
 	"io/ioutil"
 	"net"
 	"net/http"
 	"os"
 	"path/filepath"
-	"github.com/hustcat/docker-graph-driver/driver"
 )
 
 const (

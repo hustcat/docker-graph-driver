@@ -227,4 +227,3 @@ func DriverTestCreateSnap(t *testing.T, drivername string) {
 		t.Fatal(err)
 	}
 }
-
