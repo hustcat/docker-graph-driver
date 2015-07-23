@@ -19,4 +19,22 @@ On the other hand, companies like EMC, NetApp and others will most likely not be
 
 # How to use
 
+## How to compile
+
+```bash
+go build -v
+```
+
+## Run docker graph driver
+
+```bash
+# ./docker-graph-driver -D -s rbd
+DEBU[0000] Rbd setup base image                         
+INFO[0000] listening on /run/docker/plugins/rbd.sock
+   
+DEBU[0000] root group found. gid: 0
+```
+
+## Integration with Docker
+
 TODO:
