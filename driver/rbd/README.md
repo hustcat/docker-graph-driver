@@ -19,29 +19,20 @@ This is not accepted by docker community.
 
 Now docker community plan to implement out-of-process graph driver [#13777](https://github.com/docker/docker/pull/13777). It is a good tradeoff between docker and rbd.
 
-As far, Docker is still not implement graph driver plugin interface, I wish [#13777](https://github.com/docker/docker/pull/13777) can be merged ASAP.
-
-# How to compile
-```bash
-go build -v
-```
 # How to use
 
 ## install ceph cluster
 TODO:
 
-## run docker rbd driver daemon
+## run rbd graph driver
 
 ```bash
-docker-rbd-driver -D
+# docker-graph-driver -s rbd
+...
 ```
 
 ## run docker daemon
 
-```bash
-# docker -d -D -s rbd
-...
-```
 ## pull images
 
 ```bash
