@@ -38,3 +38,7 @@ DEBU[0000] root group found. gid: 0
 ## Integration with Docker
 
 TODO:
+
+## Others
+
+- [Run docker on ceph cluster with rbd driver](http://hustcat.github.io/run-docker-on-ceph/)
